@@ -1,0 +1,115 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Arvo', serif;
+    background-color: rgba(182, 182, 182, 0.185);
+    padding-bottom: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/*---------------------------*/
+
+div.jumbotron {
+    text-align: center;
+    color: white;
+    background: fixed no-repeat url(../img/hero_image.jpg);
+    margin-bottom: 0;
+}
+
+div.jumbotron h1 {
+    margin-bottom: 50px;
+}
+
+div.jumbotron .container p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.btn-lg {
+    font-size: 36px;
+}
+
+ul.nav {
+    font-size: 13px;
+}
+
+.jumbotron p {
+    margin-bottom: 30px;
+}
+
+
+.container.homepage {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.seccion h2, .container.homepage h2,
+h3 {
+    text-transform: uppercase;
+    color: #e74c3c;
+    padding: 20px 0 5px 0;
+}
+
+.separacion {
+    padding: 0 30px;
+}
+
+.row p {
+    font-size: 18px;
+}
+
+.btn {
+    margin-bottom: 0px;
+}
+
+.seccion {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+
+}
+
+.red-font {
+    color: red;
+    text-decoration: none;
+}
+        .red-font:hover {
+            text-decoration: none;
+            color: rgb(167, 0, 0);
+        }
+
+.separacion-lg {
+    padding: 0 10vw;
+}
+
+.red-border {
+    border-color: #e74c3c;
+    width: 150px;
+    margin-top: 10px;
+}
+
+
+.btn-default {
+    color: #e74c3c;
+}
+
+footer {
+    background-color: #e74c3c;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 60px 0 20px 10vw;
+}
+
+.buscoya {
+    color: inherit;
+    text-decoration: none;
+}
+
+.separacion  .btn {
+    margin-bottom: 20px;
+}
